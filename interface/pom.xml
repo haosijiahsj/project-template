@@ -11,5 +11,13 @@
 
     <artifactId>common.interface</artifactId>
 
-
+    <dependencies>
+        <!-- 不用写getter，setter -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.16</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
 </project>
